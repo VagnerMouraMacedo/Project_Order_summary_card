@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+.content {
+  margin: 30px;
+}
+:root {
+  --Pale_blue: hsl(225, 100%, 94%);
+  --Bright_blue: hsl(245, 75%, 52%);
+  --Very_pale_blue: hsl(225, 100%, 98%);
+  --Desaturated_blue: hsl(224, 23%, 55%);
+  --Dark_blue: hsl(223, 47%, 23%);
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--Pale_blue);
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+}
+main {
+  width: 320px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: white;
+  overflow: hidden;
+
+}
+.img {
+  width: 100%;
+  height: 145px;
+  background: url(images/illustration-hero.svg) no-repeat center center;
+  background-size: cover;
+}
+contain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h3 {
+  font-size: 1.3em;
+  margin-bottom: 15px;
+}
+p {
+  font-size: 1em;
+  font-weight: 500;
+  color: var(--Desaturated_blue);
+  text-align: center;
+  line-height: 25px;
+}
+.plan {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: var(--Very_pale_blue);
+  padding: 15px 0;
+  border-radius: 10px;
+  margin: 20px 0 10px;
+  overflow: hidden;
+}
+.plan img {
+  width: 45px;
+  margin-left: 15px;
+}
+.plan .space{
+    width: 100%;
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+}
+.plan .price {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+    justify-content: center;
+  margin-left: 20px;
+  font-size: 0.9em;
+}
+.plan .price h5 {
+  font-size: 0.9em;
+  font-weight: 900;
+  line-height: 15px;
+}
+.plan .price p {
+  font-size: 0.8em;
+}
+ .plan a {
+  display: flex;
+  font-size: 0.8em;
+  font-weight: 900;
+  color: var(--Bright_blue);
+  margin-right: 10px;
+} 
+ .plan a:hover {
+  text-decoration: none;
+  color: var(--Desaturated_blue);
+ } 
+button {
+  width: 100%;
+  padding: 14px 0;
+  border-radius: 10px;
+  background-color: var(--Bright_blue);
+  color: white;
+  font-size: 0.9em;
+  font-weight: 700;
+  margin: 20px 0;
+  box-shadow: 0px 15px 12px rgba(0, 0, 255, 0.212);
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color:hsla(245, 75%, 52%, 0.658);}
+.out{
+  margin-top: 5px;
+}
+.out a{
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 900;
+  color: var(--Desaturated_blue);
+}
+.out a:hover{
+    color: var(--Dark_blue);
+}
+

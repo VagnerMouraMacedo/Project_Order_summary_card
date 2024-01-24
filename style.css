@@ -15,7 +15,7 @@
   --Dark_blue: hsl(223, 47%, 23%);
 }
 html{
-  background-color: var(--Very_pale_blue);
+  background-color: var(--Pale_blue);
 }
 body {
   width: 100vw;
@@ -140,4 +140,5 @@ button:hover {
     background: url(images/pattern-background-desktop.svg) no-repeat top;
     background-size: contain;
   }
+
 }
